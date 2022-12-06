@@ -3,7 +3,7 @@ var uzunlik = Number(prompt("Iltimos bo'yingizni balandligini kiriting (masalan:
 var BMI = Number(massa/(uzunlik * uzunlik))
 
 
- if (BMI < 18){
+ if (BMI < 15){
     alert(`Sizda vazningiz bo'yicha muammo bor`)
 }
 else if (BMI >= 15 & BMI <=25){
